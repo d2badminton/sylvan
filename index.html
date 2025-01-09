@@ -5,6 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sylvan County - A Community of Harmony</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #555;
+        }
+        header p {
+            color: #777;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #444;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        #gallery .photos img {
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .architect-profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .architect-profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #eaeaea;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,7 +73,7 @@
 
     <section id="overview">
         <h2>About Sylvan County</h2>
-        <p>Sylvan County is a thoughtfully planned residential community offering 220 stunning homes, designed by the renowned architect Hafeez Contractor. The community consists of 112 apartments and the rest are luxurious bungalows, perfectly suited for those seeking elegance and comfort.</p>
+        <p>Sylvan County is a thoughtfully planned residential community offering 220 stunning homes, designed by the renowned architect Hafeez Contractor. The community consists of 112 apartments and the rest are luxurious bungalows, perfectly suited for those seeking elegance and comfort. Located in the prestigious Mahindra World City, Chennai, Sylvan County offers the best of modern living amidst nature.</p>
     </section>
 
     <section id="location">
@@ -22,13 +81,25 @@
         <div id="map">
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509993!2d144.95373531531673!3d-37.817209979751704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b7c2d0179bc2!2sSylvan%20County!5e0!3m2!1sen!2sus!4v1611234567890!5m2!1sen!2sus" 
-                width="600" 
+                width="100%" 
                 height="450" 
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy">
             </iframe>
         </div>
+    </section>
+
+    <section id="mwc-details">
+        <h2>Life at Mahindra World City</h2>
+        <p>Mahindra World City is India's first integrated business city, designed to seamlessly blend work, living, and leisure. It offers world-class amenities and facilities, including:</p>
+        <ul>
+            <li><strong>The Canopy:</strong> A vibrant 60,000 sq. ft. shopping and lifestyle center with retail stores, a supermarket, food court, and more.</li>
+            <li><strong>MWC Club:</strong> A recreational hub with a gymnasium, swimming pool, and sports facilities.</li>
+            <li><strong>Healthcare Facilities:</strong> Modern medical centers and hospitals for quality healthcare.</li>
+            <li><strong>Special Economic Zones (SEZs):</strong> Dedicated zones catering to various industries, fostering economic growth.</li>
+            <li><strong>Mahindra World School:</strong> A state-of-the-art educational institution offering excellent facilities like specialized laboratories, a library, and a vast playfield.</li>
+        </ul>
     </section>
 
     <section id="gallery">
@@ -44,8 +115,10 @@
         <h2>Celebrating Hafeez Contractor</h2>
         <div class="architect-profile">
             <img src="images/hafeez_contractor.jpg" alt="Hafeez Contractor">
-            <h3>The Visionary Architect</h3>
-            <p>Hafeez Contractor, an award-winning architect known for transforming urban skylines, has brought his brilliance to Sylvan County. His innovative designs ensure that every home here offers unparalleled comfort and elegance.</p>
+            <div>
+                <h3>The Visionary Architect</h3>
+                <p>Hafeez Sorab Contractor, born in 1950, is a distinguished Indian architect known for transforming urban skylines. With a degree from the University of Mumbai and a master's from Columbia University, he has designed iconic structures like The Imperial Towers in Mumbai and The 42 in Kolkata. Awarded the Padma Bhushan in 2016, his work blends innovation and functionality, redefining modern architecture.</p>
+            </div>
         </div>
     </section>
 
